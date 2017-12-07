@@ -39,7 +39,7 @@ end
 always@(posedge clk)
 begin
 	
-	if(counter <= duty_cycle)	//Writing a 1 to the LED when counter iw less than the duty cycle
+	if(counter <= duty_cycle)	//Writing a 1 to the LED when counter is less than the duty cycle
 		begin
 		PWM_out = 1'b1;
 		end
